@@ -311,7 +311,7 @@ public class MethodFactoryTest {
 - 类图如下：
 
 ```
-  ![](https://github.com/CaoWenCool/pattern/blob/master/factory/image/methodFactory.jpg)
+  ![](https://github.com/CaoWenCool/pattern/blob/master/factory/image/classMethodFactory.jpg)
 ```
 
 #### <font face="黑体" color="green" size="5">工厂方法模式的适用场景：</font>
