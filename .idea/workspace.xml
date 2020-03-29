@@ -1,32 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9367efca-5f8d-4a00-a9a5-1dc5f13c3e04" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/我的文档.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/abstractfactory/AbstractFactoryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/abstractfactory/AppleCPU.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/abstractfactory/AppleFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/abstractfactory/AppleParts.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/abstractfactory/ComputerFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/abstractfactory/ImportParts.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/abstractfactory/developmentCPU.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/AppleComputer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/AppleComputerFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/HuaWeiComputer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/HuaWeiComputerFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/IComputerFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/MethodFactoryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/ThinkComputer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/ThinkComputerFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/AppleComputerFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/ComputerFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/HuaWeiComputerFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/IComputer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/SimpleFactoryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/ThinkComputerFactory.java" />
+    <list default="true" id="9367efca-5f8d-4a00-a9a5-1dc5f13c3e04" name="Default" comment="设计模式的总结">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factory/image/classMethodFactory.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/factory/工厂模式.md" afterPath="$PROJECT_DIR$/factory/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/factory/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,101 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MethodFactoryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/MethodFactoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThinkComputer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/ThinkComputer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThinkComputerFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/ThinkComputerFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppleComputerFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/AppleComputerFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ComputerFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/ComputerFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HuaWeiComputerFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/HuaWeiComputerFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IComputer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/IComputer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleFactoryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/SimpleFactoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThinkComputerFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/ThinkComputerFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/factory/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            <state relative-caret-position="399">
+              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -253,10 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,78 +149,14 @@
               <item name="我的文档" type="b2602c69:ProjectViewProjectNode" />
               <item name="我的文档" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="我的文档" type="b2602c69:ProjectViewProjectNode" />
-              <item name="我的文档" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="我的文档" type="b2602c69:ProjectViewProjectNode" />
-              <item name="我的文档" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="我的文档" type="b2602c69:ProjectViewProjectNode" />
-              <item name="我的文档" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="我的文档" type="b2602c69:ProjectViewProjectNode" />
-              <item name="我的文档" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="我的文档" type="b2602c69:ProjectViewProjectNode" />
-              <item name="我的文档" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="我的文档" type="b2602c69:ProjectViewProjectNode" />
-              <item name="我的文档" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="我的文档" type="b2602c69:ProjectViewProjectNode" />
-              <item name="我的文档" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="我的文档" type="b2602c69:ProjectViewProjectNode" />
-              <item name="我的文档" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,6 +171,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\我的文档\factory\image" />
       <recent name="F:\我的文档\factory\src\main\java\com\pattern\factory" />
     </key>
   </component>
@@ -459,6 +281,7 @@
       <updated>1585275941720</updated>
       <workItem from="1585275943064" duration="1282000" />
       <workItem from="1585355777487" duration="31000" />
+      <workItem from="1585480317986" duration="57000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式的总结">
       <created>1585275998967</created>
@@ -471,10 +294,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1313000" />
+    <option name="totallyTimeSpent" value="1370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -482,23 +306,23 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -524,78 +348,23 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/MethodFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/factory/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/ThinkComputer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/AppleComputerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/ThinkComputerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/ComputerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/HuaWeiComputerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/IComputer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/SimpleFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/ThinkComputerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/MethodFactoryTest.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/ThinkComputer.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/AppleComputerFactory.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/ThinkComputerFactory.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/ComputerFactory.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/HuaWeiComputerFactory.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/IComputer.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/SimpleFactoryTest.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/ThinkComputerFactory.java" />
     <entry file="file://$PROJECT_DIR$/factory/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -615,166 +384,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/abstractfactory/AbstractFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/abstractfactory/AppleCPU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/abstractfactory/AppleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/abstractfactory/AppleParts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/abstractfactory/ComputerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/abstractfactory/developmentCPU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/abstractfactory/ImportParts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/AppleComputer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/AppleComputerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/HuaWeiComputer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/HuaWeiComputerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/IComputerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/MethodFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/ThinkComputer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/ThinkComputerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/AppleComputerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/ComputerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/HuaWeiComputerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/IComputer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/SimpleFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/ThinkComputerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/abstractfactory/AbstractFactoryTest.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/abstractfactory/AppleCPU.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/abstractfactory/AppleFactory.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/abstractfactory/AppleParts.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/abstractfactory/ComputerFactory.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/abstractfactory/developmentCPU.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/abstractfactory/ImportParts.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/AppleComputer.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/AppleComputerFactory.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/HuaWeiComputer.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/HuaWeiComputerFactory.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/IComputerFactory.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/MethodFactoryTest.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/ThinkComputer.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/methodfactory/ThinkComputerFactory.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/AppleComputerFactory.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/ComputerFactory.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/HuaWeiComputerFactory.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/IComputer.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/SimpleFactoryTest.java" />
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/pattern/factory/simplefactory/ThinkComputerFactory.java" />
     <entry file="file://$PROJECT_DIR$/factory/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="399">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
           <folding />
         </state>
       </provider>
