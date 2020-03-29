@@ -98,7 +98,7 @@ public class SimpleFactoryTest {
 
 - **运行结果**
 
-![简单工厂运行结果](https://github.com/CaoWenCool/pattern/blob/master/factory/image/simpleFactory1.jpg)
+![简单工厂运行结果](factory/image/simpleFactory1.jpg)
 
 <font face="宋体" size="3">上面的代码中，父类IComputer 指向子类 HuaWeiComputerFactory 的引用，应用层的代码需要依赖于 HuaWeiComputerFactory，如果我们的工厂需要生产更多的品牌的电脑，我们需要继续增加 类似于 华硕的工厂类，戴尔的工厂类等等，那么我们的客户端的代码就会变得越来越臃肿。因为，我们需要想办法来吧这种依赖性减弱，把创建的细节隐藏。因此，我们吧简单工厂模式进行优化</font>
 
