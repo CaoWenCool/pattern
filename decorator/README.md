@@ -2,19 +2,19 @@
 
 ## <font face="黑体" color="blue" size="5">定义</font>
 
-装饰者模式是指在不改变原有对象的基础之上，将功能附加到对象上，提供了比继承更有弹性的替代方案（扩展原有的对象的功能），属于结构型模式。装饰者模式在我们的生活中应用也是比较多的，比如，买车子选配置，卖电脑增加配置等等。给对象扩展一些额外的功能。
+<font face="宋体" size="3">装饰者模式是指在不改变原有对象的基础之上，将功能附加到对象上，提供了比继承更有弹性的替代方案（扩展原有的对象的功能），属于结构型模式。装饰者模式在我们的生活中应用也是比较多的，比如，买车子选配置，卖电脑增加配置等等。给对象扩展一些额外的功能。</font>
 
-### 适用场景
+## <font face="黑体" color="blue" size="5">适用场景</font>
 
-1、用于扩展一个类的功能或者给一个类添加附加职责。
+<font face="宋体" size="3">1、用于扩展一个类的功能或者给一个类添加附加职责。</font>
 
-2、动态的给一个对象添加功能，这些功能在动态的撤销。
+<font face="宋体" size="3">2、动态的给一个对象添加功能，这些功能在动态的撤销。</font>
 
-### 例子
+## <font face="黑体" color="blue" size="5">例子</font>
 
-我们来看这么一个场景，假如我们去买电脑，买完电脑的时候我们可能觉得电脑的配置不够高，我们会增加一些配置，例如选择SSD固态硬盘，增加一个16G内存条等等。
+<font face="宋体" size="3">我们来看这么一个场景，假如我们去买电脑，买完电脑的时候我们可能觉得电脑的配置不够高，我们会增加一些配置，例如选择SSD固态硬盘，增加一个16G内存条等等。</font>
 
-创建一个电脑类：
+- **创建一个电脑类:**
 
 ```java
 public class Computer {
@@ -29,7 +29,7 @@ public class Computer {
 }
 ```
 
-创建一个电脑加SSD固态硬盘的类：
+- **创建一个电脑加SSD固态硬盘的类：**
 
 ```java
 public class ComputerAddSSD extends Computer{
@@ -47,7 +47,7 @@ public class ComputerAddSSD extends Computer{
 
 ```
 
-创建一个加了固态和内存条的类
+- **创建一个加了固态和内存条的类:**
 
 ```java
 public class ComputerAddSSDAndMemory extends ComputerAddSSD{
@@ -64,7 +64,7 @@ public class ComputerAddSSDAndMemory extends ComputerAddSSD{
 }
 ```
 
-客户端测试代码
+- **客户端测试代码**
 
 ```java
 public class ComputerTest {
@@ -79,13 +79,13 @@ public class ComputerTest {
 }
 ```
 
-运行结果：
+- **运行结果：**
 
-![1585533485055](C:\Users\ADMINI~1\AppData\Local\Temp\1585533485055.png)
+![1585533485055](https://github.com/CaoWenCool/pattern/blob/master/decorator/image/computer1.jpg)
 
-运行结果，虽然是正确的，但是如果我们要加一个SSD和两个16G内存条的话，这个类是没有办法创建出来的，也无法自动计算出价格的，除非再创建有一个类来做定制。但是，如果需求在继续变化呢？一直这么加显然是不合理的。那么我们就用装饰者模式来解决这个问题。
+<font face="宋体" size="3">运行结果，虽然是正确的，但是如果我们要加一个SSD和两个16G内存条的话，这个类是没有办法创建出来的，也无法自动计算出价格的，除非再创建有一个类来做定制。但是，如果需求在继续变化呢？一直这么加显然是不合理的。那么我们就用装饰者模式来解决这个问题。</font>
 
-创建一个抽象的电脑类：
+- **创建一个抽象的电脑类：**
 
 ```java
 public abstract class Computer {
@@ -96,7 +96,7 @@ public abstract class Computer {
 }
 ```
 
-创建一个电脑的套餐基础类：
+- **创建一个电脑的套餐基础类：**
 
 ```java
 public class ComputerMeal extends Computer{
@@ -109,7 +109,7 @@ public class ComputerMeal extends Computer{
 }
 ```
 
-创建一个扩展套餐的抽象装饰者类
+- **创建一个扩展套餐的抽象装饰者类**
 
 ```java
 public class ComputerMealDecorator extends Computer{
@@ -127,7 +127,7 @@ public class ComputerMealDecorator extends Computer{
 }
 ```
 
-创建一个SSD的装饰类
+- **创建一个SSD的装饰类**
 
 ```java
 public class ComputerSSDDecorator extends ComputerMealDecorator{
@@ -167,7 +167,7 @@ public class ComputerMealMemory extends ComputerMealDecorator{
 }
 ```
 
-测试类
+- **测试类**
 
 ```java
 public class ComputerTest {
@@ -186,19 +186,19 @@ public class ComputerTest {
 }
 ```
 
-运行结果：
+- **运行结果：**
 
-![1585535231157](C:\Users\ADMINI~1\AppData\Local\Temp\1585535231157.png)
+![1585535231157](https://github.com/CaoWenCool/pattern/blob/master/decorator/image/computer2.jpg)
 
-类图：
+- **类图：**
 
-![1585535302071](C:\Users\ADMINI~1\AppData\Local\Temp\1585535302071.png)
+![1585535302071](https://github.com/CaoWenCool/pattern/blob/master/decorator/image/computer3.jpg)
 
-### 例子2
+## <font face="黑体" color="blue" size="5">例子2</font>
 
-我们的登陆功能，经常可能需要进行扩展。例如增加第三方等，虽然我们可以用适配器模式进行设计，但是我们此时用装饰者来试一下。
+<font face="宋体" size="3">我们的登陆功能，经常可能需要进行扩展。例如增加第三方等，虽然我们可以用适配器模式进行设计，但是我们此时用装饰者来试一下。</font>
 
-用户类：
+- **用户类：**
 
 ```java
 @Data
@@ -210,7 +210,7 @@ public class User {
 }
 ```
 
-返回信息类：
+- **返回信息类：**
 
 ```java
 @Data
@@ -226,7 +226,7 @@ public class ResultMsg {
 }
 ```
 
-定义注册和登陆的接口：
+- **定义注册和登陆的接口：**
 
 ```java
 public interface loginService {
@@ -248,7 +248,7 @@ public interface loginService {
 }
 ```
 
-登陆的实现类
+- **登陆的实现类:**
 
 ```java
 public class loginServiceImpl implements loginService{
@@ -262,7 +262,7 @@ public class loginServiceImpl implements loginService{
 }
 ```
 
-升级之后的代码，创建一个新的接口继承原来的接口：
+- **升级之后的代码，创建一个新的接口继承原来的接口：**
 
 ```java
 public interface loginThirdService extends loginService{
@@ -277,7 +277,7 @@ public interface loginThirdService extends loginService{
 }
 ```
 
-创建新的业务逻辑的处理类，实现新创建的接口：
+- **创建新的业务逻辑的处理类，实现新创建的接口：**
 
 ```java
 public class loginForThirdServiceImpl implements loginThirdService{
@@ -314,7 +314,7 @@ public class loginForThirdServiceImpl implements loginThirdService{
 }
 ```
 
-客户端测试代码：
+- **客户端测试代码：**
 
 ```java
 public class Test {
@@ -326,17 +326,17 @@ public class Test {
 }
 ```
 
-运行结果：
+- **运行结果：**
 
 ![1586178682817](C:\Users\ADMINI~1\AppData\Local\Temp\1586178682817.png)
 
 
 
-装饰者模式最本质的特征是将原有的类的附加功能抽离出来，简化原有类的逻辑。通过这样的案例，我们可以得出结论，其实抽象的装饰者是可有可无的，具体可以根据业务模型来进行选择。
+<font face="宋体" size="3">装饰者模式最本质的特征是将原有的类的附加功能抽离出来，简化原有类的逻辑。通过这样的案例，我们可以得出结论，其实抽象的装饰者是可有可无的，具体可以根据业务模型来进行选择。</font>
 
-### 装饰者模式和适配器模式对比
+## <font face="黑体" color="blue" size="5">装饰者模式和适配器模式对比</font>
 
-装饰者和适配者都是包装模式，装饰者也是一种特殊的代理模式
+<font face="宋体" size="3">装饰者和适配者都是包装模式，装饰者也是一种特殊的代理模式。</font>
 
 |      | 装饰者模式                                                   | 适配器模式                                                   |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -346,13 +346,13 @@ public class Test {
 | 功能 | 注重覆盖和扩展                                               | 注重兼容和转换                                               |
 | 设计 | 前置考虑                                                     | 后置考虑                                                     |
 
-### 在源码中的应用
+## <font face="黑体" color="blue" size="5">在源码中的应用</font>
 
-InputStream的类结构图：
+- **InputStream的类结构图：**
 
-![1585536380563](C:\Users\ADMINI~1\AppData\Local\Temp\1585536380563.png)
+![1585536380563](https://github.com/CaoWenCool/pattern/blob/master/decorator/image/inputStream.jpg)
 
-在Spring中的TransactionAwareCacheDecorator类我们可以来尝试一下，这个类主要用来处理事务缓存的。
+<font face="宋体" size="3">在Spring中的TransactionAwareCacheDecorator类我们可以来尝试一下，这个类主要用来处理事务缓存的。</font>
 
 ```java
 private final Cache targetCache;
@@ -372,9 +372,9 @@ public Cache getTargetCache() {
 }
 ```
 
-TransactionAwareCacheDecorator 就是对Cache的一个包装。
+<font face="宋体" size="3">TransactionAwareCacheDecorator 就是对Cache的一个包装。</font>
 
-MVC中的装饰者模式HttpHeadResponseDecorator类
+- **MVC中的装饰者模式HttpHeadResponseDecorator类**
 
 ```java
 public class HttpHeadResponseDecorator extends ServerHttpResponseDecorator {
@@ -385,9 +385,9 @@ public class HttpHeadResponseDecorator extends ServerHttpResponseDecorator {
    }
 ```
 
-Mybatis 中的 处理缓存的设计
+- **Mybatis 中的 处理缓存的设计**
 
-![1585537476952](C:\Users\ADMINI~1\AppData\Local\Temp\1585537476952.png)
+![1585537476952](https://github.com/CaoWenCool/pattern/blob/master/decorator/image/MybarisDecorator.jpg)
 
 ```java
 public interface Cache {
@@ -407,21 +407,26 @@ public interface Cache {
 }
 ```
 
-从名字中我们可以看出，比如LruCache 最近最少使用的缓存，FifoCache先入先出算法的缓存，TransactionCache事务相关的缓存都是采用装饰者模式。
+<font face="宋体" size="3">从名字中我们可以看出，比如LruCache 最近最少使用的缓存，FifoCache先入先出算法的缓存，TransactionCache事务相关的缓存都是采用装饰者模式。</font>
 
-### 装饰者模式的优缺点
+## <font face="黑体" color="blue" size="5">装饰者模式的优缺点</font>
 
-优点:
+- **优点:**
 
-1、装饰者是继承的有力补充，比继承灵活，不改变原有对象的情况下动态地给一个对象扩展功能，即插即用
+<font face="宋体" size="3">1、装饰者是继承的有力补充，比继承灵活，不改变原有对象的情况下动态地给一个对象扩展功能，即插即用</font>
 
-2、通过使用不同装饰类以及这些装饰类的排列组合，可以实现不同的效果
+<font face="宋体" size="3">2、通过使用不同装饰类以及这些装饰类的排列组合，可以实现不同的效果</font>
 
-3、装饰者完全遵循开闭原则
+<font face="宋体" size="3">3、装饰者完全遵循开闭原则</font>
 
-缺点：
+- **缺点：**
 
-1、会出现更多的代码，更多的类，增加程序的复杂性
+<font face="宋体" size="3">1、会出现更多的代码，更多的类，增加程序的复杂性</font>
 
-2、动态装饰时，多层装饰时会更加复杂。
+<font face="宋体" size="3">2、动态装饰时，多层装饰时会更加复杂。</font>
 
+## <font face="黑体" color="blue" size="5">源码地址</font>
+
+[装饰者模式:](https://github.com/CaoWenCool/pattern/tree/master/decorator)
+
+https://github.com/CaoWenCool/pattern/tree/master/decorator
