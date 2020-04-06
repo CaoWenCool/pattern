@@ -1,7 +1,3 @@
-[toc]****_````_****
-
-
-
 ## 工厂模式
 
 ### <font face="黑体" color="blue" size="5">背景</font>
@@ -98,7 +94,7 @@ public class SimpleFactoryTest {
 
 - **运行结果**
 
-![简单工厂运行结果](factory/image/simpleFactory1.jpg)
+![简单工厂运行结果](https://github.com/CaoWenCool/pattern/blob/master/factory/image/simpleFactory1.jpg)
 
 <font face="宋体" size="3">上面的代码中，父类IComputer 指向子类 HuaWeiComputerFactory 的引用，应用层的代码需要依赖于 HuaWeiComputerFactory，如果我们的工厂需要生产更多的品牌的电脑，我们需要继续增加 类似于 华硕的工厂类，戴尔的工厂类等等，那么我们的客户端的代码就会变得越来越臃肿。因为，我们需要想办法来吧这种依赖性减弱，把创建的细节隐藏。因此，我们吧简单工厂模式进行优化</font>
 
@@ -311,7 +307,7 @@ public class MethodFactoryTest {
 - 类图如下：
 
 ```
-  ![](https://github.com/CaoWenCool/pattern/blob/master/factory/image/classMethodFactory.jpg)
+  ![](https://github.com/CaoWenCool/pattern/blob/master/factory/image/methodFactory.jpg)
 ```
 
 #### <font face="黑体" color="green" size="5">工厂方法模式的适用场景：</font>
@@ -434,3 +430,6 @@ public class AbstractFactoryTest {
 <font face="宋体" size="3">2、增加系统的抽象性和理解难度</font>
 
 ### <font face="黑体" color="green" size="5">项目源代码</font>
+
+**<u>[](https://github.com/CaoWenCool/pattern/tree/master/factory)**</u>
+
