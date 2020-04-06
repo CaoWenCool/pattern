@@ -328,7 +328,7 @@ public class Test {
 
 - **运行结果：**
 
-![1586178682817](C:\Users\ADMINI~1\AppData\Local\Temp\1586178682817.png)
+![1586178682817](https://github.com/CaoWenCool/pattern/blob/master/decorator/image/login.jpg)
 
 
 
