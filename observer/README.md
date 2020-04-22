@@ -304,7 +304,7 @@ public class Test {
 
 - 运行结果
 
-![1587078668232](C:\Users\ADMINI~1\AppData\Local\Temp\1587078668232.png)
+![1587078668232](https://github.com/CaoWenCool/pattern/blob/master/observer/image/keyboard.jpg)
 
 ### 例子3 （基于GuauaAPI 实现观察者模式)
 
@@ -344,7 +344,7 @@ public class Test {
 
 - 运行结果
 
-![1587080404666](C:\Users\ADMINI~1\AppData\Local\Temp\1587080404666.png)
+![1587080404666](https://github.com/CaoWenCool/pattern/blob/master/observer/image/guava.jpg)
 
 
 
