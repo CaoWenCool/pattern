@@ -7,12 +7,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="decorator" />
+        <module name="delegate" />
+        <module name="facade" />
+        <module name="Facade" />
         <module name="factory" />
+        <module name="flyweight" />
+        <module name="observer" />
+        <module name="prototype" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="decorator" target="1.5" />
+      <module name="delegate" target="1.5" />
+      <module name="Facade" target="1.5" />
+      <module name="facade" target="1.5" />
       <module name="factory" target="1.8" />
+      <module name="flyweight" target="1.5" />
+      <module name="observer" target="1.5" />
+      <module name="prototype" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
